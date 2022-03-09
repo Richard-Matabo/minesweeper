@@ -47,7 +47,16 @@ function Game() {
             </div>
             <Board />
           </div>
-        
+         <div className="credentials">
+            <a className="github"
+               href="https://github.com/Richard-Matabo/minesweeper">
+              <div className="fab fa-github"/>
+            </a>
+            <a className="twitter"
+               href="https://twitter.com/Richard_Matabo">
+              <div className="fab fa-twitter"/>
+            </a>
+          </div>
         </div>
       </dispatchContext.Provider>
     </stateContext.Provider>
